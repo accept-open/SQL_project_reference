@@ -1,4 +1,4 @@
-# SQL_project_reference
+# SQL Project Reference
 
 ## Generate unique identifier across the database
 
