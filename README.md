@@ -47,7 +47,7 @@ VALUES('2008-01-01 00:00:01');
 
 SELECT t1 FROM test_timestamp;
 ```
-https://sp.mysqltutorial.org/wp-content/uploads/2011/03/MySQL-Timestamp-timezone-changes.jpg
+![](https://sp.mysqltutorial.org/wp-content/uploads/2011/03/MySQL-Timestamp-timezone-changes.jpg)
 
 ```mysql
 SELECT t1 FROM test_timestamp;
@@ -65,4 +65,4 @@ SELECT * FROM categories;
 
 ```
 
-https://sp.mysqltutorial.org/wp-content/uploads/2011/03/MySQL-TIMESTAMP-Automatic-Initialization.png
+![](https://sp.mysqltutorial.org/wp-content/uploads/2011/03/MySQL-TIMESTAMP-Automatic-Initialization.png)
