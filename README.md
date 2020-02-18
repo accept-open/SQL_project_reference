@@ -22,3 +22,47 @@ FROM
 ```
 
 ![result_uuid](https://sp.mysqltutorial.org/wp-content/uploads/2017/07/MySQL-UUID.png)
+
+## ID Auto Increment
+```mysql
+CREATE TABLE categories (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+```
+
+## data : Timestamp
+
+https://www.mysqltutorial.org/mysql-timestamp.aspx
+```mysql
+CREATE TABLE test_timestamp (
+    t1  TIMESTAMP
+);
+
+SET time_zone='+00:00';
+
+INSERT INTO test_timestamp(t1)
+VALUES('2008-01-01 00:00:01');
+
+SELECT t1 FROM test_timestamp;
+```
+https://sp.mysqltutorial.org/wp-content/uploads/2011/03/MySQL-Timestamp-timezone-changes.jpg
+
+```mysql
+SELECT t1 FROM test_timestamp;
+
+CREATE TABLE categories (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+INSERT INTO categories(name) 
+VALUES ('A');
+
+SELECT * FROM categories;
+
+```
+
+https://sp.mysqltutorial.org/wp-content/uploads/2011/03/MySQL-TIMESTAMP-Automatic-Initialization.png
