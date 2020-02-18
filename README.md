@@ -32,7 +32,8 @@ CREATE TABLE categories (
 );
 ```
 
-```mssql
+```mysql
+-- SQL Server
 CREATE TABLE Persons (
     Personid int IDENTITY(1,1) PRIMARY KEY,
     LastName varchar(255) NOT NULL,
